@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "E Commerce Route"
 include(":app")
+include(":data")
+include(":domain")

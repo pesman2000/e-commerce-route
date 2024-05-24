@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.route.ecommerce"
-        minSdk = 24
+        minSdk = 25
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -61,6 +61,15 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(project(":domain"))
     implementation(project(":data"))
+
+    //Google Fonts
+    implementation(libs.androidx.ui.text.google.fonts)
+
+    //Navigation
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.material)
+    implementation(libs.androidx.compose.material)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

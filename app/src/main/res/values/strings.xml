@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">E Commerce Route</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">Ecommerce Proj</string>
+    <string name="welcome_back_to_route">Welcome Back To Route</string>
+    <string name="please_sign_in_with_your_mail">Please sign in with your mail</string>
+    <string name="e_mail_address">E-mail address</string>
+    <string name="Enter_your_email_address">Enter your email address</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="login">Login</string>
+    <string name="full_name">Full Name</string>
+    <string name="Enter_your_full_name">Enter your full name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="Enter_your_mobile_no">Enter your mobile no.</string>
+    <string name="sign_up">Sign up</string>
+    <string name="edit_pen_icon">Edit Pen Icon</string>
+    <string name="your_full_name">Your full name</string>
+    <string name="user_full_name">User full name</string>
+    <string name="your_e_mail">Your E-mail</string>
+    <string name="user_email">User E-mail</string>
+    <string name="user_password">User Password</string>
+    <string name="your_mobile_number">Your Mobile Number</string>
+    <string name="user_mobile_number">User Mobile Phone</string>
+    <string name="your_address">Your Address</string>
+    <string name="user_address">User address</string>
 </resources>

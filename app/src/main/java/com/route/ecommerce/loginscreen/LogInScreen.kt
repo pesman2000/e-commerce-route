@@ -94,7 +94,7 @@ fun LogInScreen() {
         }
 
         Text(
-            text = stringResource(R.string.user_name),
+            text = stringResource(R.string.e_mail_address),
             color = Color.White,
             fontFamily = fontFamily,
             fontWeight = FontWeight.Medium,
@@ -106,7 +106,7 @@ fun LogInScreen() {
             value = userName,
             onValueChange = { userName = it },
             singleLine = true,
-            placeholder = { Text(stringResource(R.string.enter_your_name)) },
+            placeholder = { Text(stringResource(R.string.Enter_your_email_address)) },
             shape = RoundedCornerShape(15.dp),
             modifier = Modifier
                 .fillMaxWidth()

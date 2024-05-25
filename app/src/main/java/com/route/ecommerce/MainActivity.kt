@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.route.ecommerce.accountdetailsscreen.AccountDetailsScreen
 import com.route.ecommerce.loginscreen.LogInScreen
 
 class MainActivity : ComponentActivity() {
@@ -11,7 +12,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         installSplashScreen()
         setContent {
-            LogInScreen()
+            AccountDetailsScreen()
         }
     }
 }
